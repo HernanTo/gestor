@@ -154,8 +154,9 @@ tbody tr td{
         justify-items: center;
         overflow-x: hidden;
     }
-    /* .con-gestor{
-    } */
+    .con-gestor{
+        overflow-x: hidden;
+    }
     .head-gestor h2{
         font-size: 2.3rem;
     }
