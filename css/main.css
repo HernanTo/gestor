@@ -98,9 +98,9 @@ tbody tr td{
     color: white;
     padding: 0px 10px;
 }
-/* .con-gestor{
+.con-gestor{
     overflow-x: scroll;
-} */
+}
 .estado{
     height: 60%;
     border-radius: 10px;
