@@ -32,18 +32,18 @@
                                 <td class="first-th">Aprovisionamiento</td>
                                 <td class="con-estado"><div class="estado estado-com"><span></span><p>Terminado</p></div></td>
                                 <td class="end-th actions">
-                                    <a href=""><img src="./assets/img/ETBlight.svg" alt=""></a>
-                                    <a href=""><img src="./assets/img/github.png" alt=""></a>
-                                    <a href=""><img src="./assets/img/world.svg" alt=""></a>
+                                    <a href="https://gestor.etb.net.co/simulador-master/login.html"><img src="./assets/img/ETBlight.svg" alt=""></a>
+                                    <a href="https://github.com/HernanTo/simulador"><img src="./assets/img/github.png" alt=""></a>
+                                    <a href="https://hernanto.github.io/simulador/login.html"><img src="./assets/img/world.svg" alt=""></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="first-th">Aseguramiento</td>
                                 <td class="con-estado"><div class="estado estado-proc"><span></span><p>En Proceso</p></div></td>
                                 <td class="end-th actions">
-                                    <a href=""><img src="./assets/img/ETBlight.svg" alt=""></a>
-                                    <a href=""><img src="./assets/img/github.png" alt=""></a>
-                                    <a href=""><img src="./assets/img/world.svg" alt=""></a>
+                                    <a onclick="modalShow()"><img src="./assets/img/ETBlight.svg" alt=""></a>
+                                    <a onclick="modalShow()"><img src="./assets/img/github.png" alt=""></a>
+                                    <a onclick="modalShow()"><img src="./assets/img/world.svg" alt=""></a>
                                 </td>
                             </tr>
                             <!-- <br> -->
@@ -51,9 +51,9 @@
                                 <td class="first-th">Planta Externa</td>
                                 <td class="con-estado"><div class="estado estado-com"><span></span><p>Terminado</p></div></td>
                                 <td class="end-th actions">
-                                    <a href=""><img src="./assets/img/ETBlight.svg" alt=""></a>
-                                    <a href=""><img src="./assets/img/github.png" alt=""></a>
-                                    <a href=""><img src="./assets/img/world.svg" alt=""></a>
+                                    <a onclick="modalShow()"><img src="./assets/img/ETBlight.svg" alt=""></a>
+                                    <a href="https://github.com/HernanTo/plantaExterna"><img src="./assets/img/github.png" alt=""></a>
+                                    <a href="https://hernanto.github.io/plantaExterna/login.html"><img src="./assets/img/world.svg" alt=""></a>
                                 </td>
                             </tr>
                         </tbody>
@@ -62,7 +62,24 @@
             </div>
         </div>
     </div>
+    <div class="modal modal-success-sim" tabindex="-1" id="modal-no-deplo">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Información</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Página aún no esta desplegada en el servidor seleccionado</p>
+                    </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-primary" id="btn-con-s">Si</button> -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ACEPTAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./bootstrap/jquery.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

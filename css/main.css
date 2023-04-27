@@ -161,3 +161,36 @@ tbody tr td{
         font-size: 2.3rem;
     }
 }
+
+/* ///////////////////////////////// */
+.modal-header .modal-title  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #20a4cb;
+    font-weight: bold;
+  }
+  .modal-success-sim .modal-footer{
+    border: none;
+  }
+  .modal-success-sim .modal-body p{
+    text-align: center;
+    color: #20A4CB;
+  }
+  .modal-success-sim .modal-content{
+    width: 320px;
+  }
+  .modal-success-sim .modal-footer{
+    display: grid;
+    justify-content: center;
+  }
+  .modal-success-sim button{
+    background: #dd694c;
+    border: none;
+  }
+  .modal-success-sim .modal-dialog{
+    display: grid;
+    justify-content: center;
+  }
